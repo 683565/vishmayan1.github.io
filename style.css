@@ -238,10 +238,10 @@ padding: 20px 20px;
 @media (max-width: 1028px) {
 
     #ttd {
-        height: 160vh;
+        height: 180vh;
     }
     #pricing {
-        height: 210vh;
+        height: 230vh;
     }
     #title {
         height: 190vh;
