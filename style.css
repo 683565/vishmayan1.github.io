@@ -1,0 +1,251 @@
+body {
+   
+    font-family:'pacifico thin', cursive;
+}
+
+
+#title {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(mousuni8.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    margin: 0px;
+    padding: 0px;
+   
+    
+}
+
+.container-fluid {
+   padding: 3% 15%;
+
+}
+
+.title-h {
+    text-align: center;
+    font-family: 'Pacifico thin', cursive;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: yellow;
+    margin-top: 150px;
+}
+p {
+    color: #fff;
+}
+
+/* your-stay */
+
+#your-stay {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(mousuni22.JPG);
+    background-size: cover;
+    background-position: center;
+   
+    /*filter: blur(0);*/
+    padding: 3% 2%;
+    font-family: 'kanit' sans-serif;
+   
+}
+#your-stay h1 {
+    text-align: center;
+    color: aliceblue;
+}
+#your-stay p {
+    text-align: center;
+}
+
+
+.your-img {
+    width: 100%;
+   
+    margin-bottom: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 1.3rem 1.3rem 1.3rem rgba(0, 0, 0, 0.5);
+
+
+    border-top-color: rgba(225, 225, 225, 0.5);
+    border-bottom-color: rgba(225, 225, 225, 0.5);
+    border-left-color: rgba(225, 225, 225, 0.5);
+    border-right-color: rgba(225, 225, 225, 0.5);
+   
+    
+    
+}
+
+/* ttd */
+
+#ttd {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(mousuni11.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    padding: 3% 2%;
+     }
+
+     .box {
+        position: relative;
+        width: 200px;
+        height: 50px;
+        background: transparent;
+        border: 1px solid #fff;
+        text-align: left;
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        margin-top: 50px;
+     }
+
+   .ttd-h1 {
+   text-align: center;
+    color: black;
+    
+    
+   }
+  .ttd-p {
+    margin-bottom: 200px;
+    color: black;
+  }
+
+  .ttdc {
+padding: 20px 20px;
+  }
+
+  .ttd-box {
+
+  }
+
+  /* location */
+
+  #location {
+    background-image: url(mousuni7.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 120vh;
+   
+   
+
+  }
+  
+
+  .location-h1 {
+    color: #000;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+   
+  }
+  .loc-add {
+    color: #000;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-size: 1rem;
+  }
+
+/* Gallery */
+
+#gallery {
+    background-image: url(mousuni6.jpg);
+    background-position: center;
+    background-size: cover;
+    filter: blur(0px);
+}
+
+.gallery-image {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 1.3rem 1.3rem 1.3rem rgba(0, 0, 0, 0.5);
+}
+.gal-h {
+    text-align: center;
+    margin-top: 60px;
+}
+.gal-p {
+    text-align: center;
+    color: #000;
+    margin: 60px 60px 60px 60px;
+}
+
+
+
+
+
+
+/* pricing */
+
+#pricing {
+    padding: 3% 2%;
+   
+}
+
+#pricing {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(mousuni12.JPG) ;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+   
+    }
+
+    .pricing-column {
+        padding: 3% 2%;
+    }
+
+    .card {
+        color: aliceblue;
+        background-color: rgba(225, 225, 225, 0.1);
+        border: 1px solid transparent;
+        backdrop-filter: blur(1rem);
+        box-shadow: 1.3rem 1.3rem 1.3rem rgba(0, 0, 0, 0.5);
+        
+
+        border-top-color: rgba(225, 225, 225, 0.5);
+        border-bottom-color: rgba(225, 225, 225, 0.5);
+        border-left-color: rgba(225, 225, 225, 0.5);
+        border-right-color: rgba(225, 225, 225, 0.5);
+
+    }
+    #pricing p{
+        color: aliceblue;
+        
+    }
+    #pricing h2 {
+        color: aliceblue;
+       
+    }
+/* footer */
+
+#footer {
+    background-image: url(mousuni9.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.footerh1 {
+    text-align: center;
+    color: black;
+    margin-bottom: 100px;
+    margin-top: 50px;
+
+}
+
+.footer-p {
+    text-align: center;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 1028px) {
+
+    #ttd {
+        height: 160vh;
+    }
+    #pricing {
+        height: 210vh;
+    }
+    #title {
+        height: 190vh;
+    }
+    
+}
+
